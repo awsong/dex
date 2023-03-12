@@ -8,10 +8,10 @@ import (
 	"entgo.io/ent/dialect/sql"
 	_ "github.com/mattn/go-sqlite3" // Register sqlite driver.
 
-	"github.com/dexidp/dex/pkg/log"
-	"github.com/dexidp/dex/storage"
-	"github.com/dexidp/dex/storage/ent/client"
-	"github.com/dexidp/dex/storage/ent/db"
+	"github.com/awsong/dex/pkg/log"
+	"github.com/awsong/dex/storage"
+	"github.com/awsong/dex/storage/ent/client"
+	"github.com/awsong/dex/storage/ent/db"
 )
 
 // SQLite3 options for creating an SQL db.

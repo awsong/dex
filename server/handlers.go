@@ -20,9 +20,9 @@ import (
 	"github.com/gorilla/mux"
 	jose "gopkg.in/square/go-jose.v2"
 
-	"github.com/dexidp/dex/connector"
-	"github.com/dexidp/dex/server/internal"
-	"github.com/dexidp/dex/storage"
+	"github.com/awsong/dex/connector"
+	"github.com/awsong/dex/server/internal"
+	"github.com/awsong/dex/storage"
 )
 
 const (

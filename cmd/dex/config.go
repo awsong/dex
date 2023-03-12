@@ -10,14 +10,14 @@ import (
 
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/dexidp/dex/pkg/log"
-	"github.com/dexidp/dex/server"
-	"github.com/dexidp/dex/storage"
-	"github.com/dexidp/dex/storage/ent"
-	"github.com/dexidp/dex/storage/etcd"
-	"github.com/dexidp/dex/storage/kubernetes"
-	"github.com/dexidp/dex/storage/memory"
-	"github.com/dexidp/dex/storage/sql"
+	"github.com/awsong/dex/pkg/log"
+	"github.com/awsong/dex/server"
+	"github.com/awsong/dex/storage"
+	"github.com/awsong/dex/storage/ent"
+	"github.com/awsong/dex/storage/etcd"
+	"github.com/awsong/dex/storage/kubernetes"
+	"github.com/awsong/dex/storage/memory"
+	"github.com/awsong/dex/storage/sql"
 )
 
 // Config is the config format for the main application.

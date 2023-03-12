@@ -13,7 +13,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/dexidp/dex/connector"
+	"github.com/awsong/dex/connector"
 )
 
 type testResponse struct {

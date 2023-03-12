@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dexidp/dex/connector"
-	"github.com/dexidp/dex/server/internal"
-	"github.com/dexidp/dex/storage"
+	"github.com/awsong/dex/connector"
+	"github.com/awsong/dex/server/internal"
+	"github.com/awsong/dex/storage"
 )
 
 func contains(arr []string, item string) bool {

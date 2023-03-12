@@ -8,7 +8,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/dexidp/dex/storage"
+	"github.com/awsong/dex/storage"
 )
 
 func TestStaticClients(t *testing.T) {

@@ -13,9 +13,9 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"github.com/dexidp/dex/connector"
-	"github.com/dexidp/dex/pkg/groups"
-	"github.com/dexidp/dex/pkg/log"
+	"github.com/awsong/dex/connector"
+	"github.com/awsong/dex/pkg/groups"
+	"github.com/awsong/dex/pkg/log"
 )
 
 const (

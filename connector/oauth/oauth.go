@@ -11,9 +11,9 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"github.com/dexidp/dex/connector"
-	"github.com/dexidp/dex/pkg/httpclient"
-	"github.com/dexidp/dex/pkg/log"
+	"github.com/awsong/dex/connector"
+	"github.com/awsong/dex/pkg/httpclient"
+	"github.com/awsong/dex/pkg/log"
 )
 
 type oauthConnector struct {

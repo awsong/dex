@@ -7,11 +7,11 @@ import (
 	"github.com/ghodss/yaml"
 	"github.com/kylelemons/godebug/pretty"
 
-	"github.com/dexidp/dex/connector/mock"
-	"github.com/dexidp/dex/connector/oidc"
-	"github.com/dexidp/dex/server"
-	"github.com/dexidp/dex/storage"
-	"github.com/dexidp/dex/storage/sql"
+	"github.com/awsong/dex/connector/mock"
+	"github.com/awsong/dex/connector/oidc"
+	"github.com/awsong/dex/server"
+	"github.com/awsong/dex/storage"
+	"github.com/awsong/dex/storage/sql"
 )
 
 var _ = yaml.YAMLToJSON

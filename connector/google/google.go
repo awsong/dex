@@ -16,9 +16,9 @@ import (
 	admin "google.golang.org/api/admin/directory/v1"
 	"google.golang.org/api/option"
 
-	"github.com/dexidp/dex/connector"
-	pkg_groups "github.com/dexidp/dex/pkg/groups"
-	"github.com/dexidp/dex/pkg/log"
+	"github.com/awsong/dex/connector"
+	pkg_groups "github.com/awsong/dex/pkg/groups"
+	"github.com/awsong/dex/pkg/log"
 )
 
 const (
@@ -74,7 +74,7 @@ func (c *Config) Open(id string, logger log.Logger) (conn connector.Connector, e
 
 	var adminSrv *admin.Service
 
-	// Fixing a regression caused by default config fallback: https://github.com/dexidp/dex/issues/2699
+	// Fixing a regression caused by default config fallback: https://github.com/awsong/dex/issues/2699
 	if (c.ServiceAccountFilePath != "" && c.AdminEmail != "") || slices.Contains(scopes, "groups") {
 		srv, err := createDirectoryService(c.ServiceAccountFilePath, c.AdminEmail, logger)
 		if err != nil {
